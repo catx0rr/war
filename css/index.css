@@ -141,8 +141,16 @@ section.home, section.about {
     margin: 5% 0 0;
 }
 
- {
+/* 404 */
 
+#card .warn {
+    width: 10rem;
+    margin: 5% auto;
+
+}
+
+#card a.fof {
+    margin: 0;
 }
 
 @media only all and (max-width: 961px) {
