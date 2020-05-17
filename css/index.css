@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono';
+}
+
+h1 {
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 5% 0 2%;
+}
+
+h2 {
+    font-size: 1.5rem; 
+}
+
+h1, h2, #card a.link, #card div.inner-box a {
+    transition: 0.8s;
+    text-align: left;
+}
+
+p a, #card a.link {
+    color: #696969;
+    text-decoration: none;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 1.0);
+}
+
+section.home {
+    margin: 200px auto;
+}
+
+section.about {
+    margin: 100px auto;
+
+}
+
+section.home, section.about {
+    width: 50%;
+    box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 1.0);
+}
+
+#card {
+    width: 50%;
+    box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 1.0);
+}
+
+#card div.outer {
+     border: 1px solid #313131;
+     margin: 0 auto;
+}
+
+
+#card div.avatar {
+    float:left;
+    margin: 3% 5%;
+    padding: 1%;
+    text-align: center;
+}
+
+#card .img {
+    border-radius: 100%;
+    width: 10rem;
+    margin: 5% auto;
+
+}
+
+#card div.social-icons {
+    margin: 25% 0 5%;
+}
+
+#card .icons {
+    transition: 0.8s;
+    padding: 0;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+#card div.inner {
+    width: 60%;
+    margin: 0 33% 3%;
+    border-left: 2px solid #313131;
+    padding: 0 2%;
+    border-image: 
+        linear-gradient(
+            to bottom, 
+            #313131, 
+            rgba(0, 0, 0, 0)
+            ) 1 100%;
+}
+
+#card div.more {
+    width: 10%;
+    float: left;
+    margin: 0;
+}
+
+#card div.more p {
+    margin: 0;
+}
+
+#card a.link {
+    margin: 0 2%;
+    font-weight: 600;
+}
+
+#card div.link-inner .link{
+    transition: 0.8s;
+}
+
+#card div.page-link {
+    float: left;
+    text-align: center;
+    width: 15%;
+    margin: 0 2%;
+}
+
+
+#card h1:hover, h2:hover, 
+#card .icons:hover,
+#card div p a.link:hover, 
+#card div.link-inner .link:hover,
+#card div.inner-box a:hover  {
+    transition: 0.8s;
+    text-shadow: 0px 0px 8px #313131, 0px 0px 4px #313131;
+}
+
+
+/* about */ 
+#card div.inner-box {
+    margin: 0 5%;
+    padding: 1% 2% 4%;
+}
+
+#card h2.header {
+    margin: 5% 0 0;
+}
+
+ {
+
+}
+
+@media only all and (max-width: 961px) {
+    
+    #card div * {
+        float: none !important;
+        text-align: center;
+    }
+
+    h1, h2 {
+        margin: 3% 0;
+    }
+
+    #card {
+        margin: 0;
+        width: 100%;
+        box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 0.0);
+    }
+
+    #card div.outer {
+        margin: 0 0 200px;
+        border: none !important;
+        width: 100%;
+    }
+
+    #card div.inner {
+        width: 100%;
+        margin: 0;
+        border: none !important;
+        padding: 0;
+    }
+
+    #card div.avatar {
+        margin: 0 1% 0;
+        padding: 3% 0 5%;
+        text-align: center;
+    }
+
+    #card div.badge {
+        float:left;
+        margin: 0;
+        padding: 1% 25% 10%;
+        text-align: left;
+    }
+    
+    #card .img {
+        border-radius: 100%;
+        margin: 5% 33% 3%;
+    }
+
+
+    #card p {
+        margin: 7% 0;
+        padding: 0 10%;
+    }
+
+    #card div.social-icons {
+        margin: 5% 0 0;
+    }
+
+    #card div.more {
+        width: 100%;
+        margin: 5% 0%;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+
+    #card div.link-outer {
+        margin: 10% 0;
+    }
+
+    #card div.link-inner a.link {
+        margin: 0 5%;
+    }
+
+    #card div.page-link {
+        text-align: center;
+        width: 100%;
+        margin: 8% 0 ;
+    }
+
+    #card div.last-link {
+        margin: 0;
+    }
+
+    /* about */
+    #card div.inner-box {
+        width: 80%;
+        padding: 5% 2% ;
+        margin: 0 auto;
+    }
+}
+
